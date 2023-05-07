@@ -1,5 +1,7 @@
 package pe.edu.cibertec.DAWI_CL1_DiegoSeminarioRojas.controller;
 
+import java.io.Console;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -37,7 +39,7 @@ public class EspecialidadController {
 		try {
 			especialidadService.registrarEspecialidad(especialidad);
 		}catch(Exception e) {
-			mensaje="Estado no registrado";
+			mensaje=""+especialidad;
 			
 		}
 		

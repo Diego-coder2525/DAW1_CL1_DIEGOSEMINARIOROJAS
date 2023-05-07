@@ -14,9 +14,9 @@ import lombok.Data;
 @Table(name = "especialidad")
 public class EspecialidadClass {
 	@Id
-	private String idEsp;
+	private String idesp;
 	@Column(name="NomEsp")
-	private String nomEsp;
+	private String nomesp;
 	@Column(name = "Costo")
 	private float costo;
 }

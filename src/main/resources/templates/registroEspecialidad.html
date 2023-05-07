@@ -8,18 +8,18 @@
 </head>
 <body>
 	<div class="card">
-		<div class="card-header">Registro de Estado</div>
+		<div class="card-header">Registro de Especialidad</div>
 		<div class="card-body">
 			<form th:action="@{/registroEspecialidad}" method="post" th:object="${especialidadForm}">
 				<div class="mb-3">
 					<label for="exampleFormControlInput1" class="form-label">id
 						</label> <input type="text" class="form-control"
-						id="exampleFormControlInput1" placeholder="Id" th:field="*{idEsp}">
+						id="exampleFormControlInput1" placeholder="Id" th:field="*{idesp}">
 				</div>
 				<div class="mb-3">
 					<label for="exampleFormControlInput1" class="form-label">nombre
 						</label> <input type="text" class="form-control"
-						id="exampleFormControlInput1" placeholder="Nombre espcialidad" th:field="*{nomEsp}">
+						id="exampleFormControlInput1" placeholder="Nombre espcialidad" th:field="*{nomesp}">
 				</div>
 				<div class="mb-3">
 					<label for="exampleFormControlInput1" class="form-label">costo
