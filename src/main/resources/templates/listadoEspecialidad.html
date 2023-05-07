@@ -10,14 +10,13 @@
 <table class="table">
   <thead>
     <tr>
-      <th scope="col">Id</th>
-      <th scope="col">Nombre especialidad</th>
+      <th scope="col">Id<th>
+      <th scope="col">Nombre especialidad</</th>
       <th scope="col">Costo</th>
     </tr>
   </thead>
   <tbody>
     <tr th:each="lista :${listaEspecialidad}">
-      <th scope="row">1</th>
       <td th:text="${lista.idesp}"></td>
       <td th:text="${lista.nomesp}"></td>
       <td th:text="${lista.costo}"></td>
